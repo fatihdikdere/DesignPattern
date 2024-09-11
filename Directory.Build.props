@@ -1,0 +1,46 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <AnalysisMode>All</AnalysisMode>
+	<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+	<CodeAnalysisTreatWarningsAsErrors>false</CodeAnalysisTreatWarningsAsErrors>
+    <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(IsTestProject)' != 'true'">
+      <OutputType>exe</OutputType>      
+  </PropertyGroup>
+    
+  <PropertyGroup Condition="'$(IsTestProject)' == 'true' AND '$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(IsTestProject)' == 'true' AND '$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  
+  <ItemGroup Condition="'$(IsTestProject)' == 'true'">
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="Moq" Version="4.20.70" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+    <PackageReference Include="FluentAssertions" Version="6.12.0" />
+     
+    <Using Include="FluentAssertions"/>
+    <Using Include="Moq"/>
+    <Using Include="Xunit"/>
+  </ItemGroup>
+  
+  <!--<ItemGroup>
+    <PackageReference
+      Include="SonarAnalyzer.CSharp"
+      Version="9.32.0.97167"
+      PrivateAssets="all"
+      Condition="$(MSBuildProjectExtension) == '.csproj' AND '$(IsTestProject)' == 'false'"
+    />
+  </ItemGroup>--> 
+</Project>
