@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command.Test", "test\Behavi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "src\Behavioral\Iterator\Iterator.csproj", "{D118026A-1125-4857-840B-CC865F5277B1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator.Test", "test\Behavioral\Iterator.Test\Iterator.Test.csproj", "{07D25006-F645-4B21-B297-B73A9C74921E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{D118026A-1125-4857-840B-CC865F5277B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D118026A-1125-4857-840B-CC865F5277B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D118026A-1125-4857-840B-CC865F5277B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D25006-F645-4B21-B297-B73A9C74921E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D25006-F645-4B21-B297-B73A9C74921E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D25006-F645-4B21-B297-B73A9C74921E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D25006-F645-4B21-B297-B73A9C74921E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,6 +147,7 @@ Global
 		{2E996367-6914-48FE-8C88-6B48E9E0927A} = {DE8ADA6E-9960-4652-9DA4-1B1E2740A392}
 		{1B370C7C-8DDE-4015-A128-9E28251AA4CE} = {DBFA50AC-30D8-4549-A59F-6C3083F2A982}
 		{D118026A-1125-4857-840B-CC865F5277B1} = {DE8ADA6E-9960-4652-9DA4-1B1E2740A392}
+		{07D25006-F645-4B21-B297-B73A9C74921E} = {DBFA50AC-30D8-4549-A59F-6C3083F2A982}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {485951CC-0DE9-453C-A4B1-3BA5E6CC7338}
