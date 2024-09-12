@@ -5,6 +5,7 @@
 public class GameSaveManager
 {
     private readonly Stack<GameSaveMemento> saveHistory = new();
+    public Stack<GameSaveMemento> SaveHistory => saveHistory;
     public void SaveGame(Game game)
     {
         saveHistory.Push(game.Save());
