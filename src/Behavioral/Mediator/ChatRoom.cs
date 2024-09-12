@@ -6,6 +6,7 @@
 public class ChatRoom : IChatRoomMediator
 {
     private readonly List<User> users = [];
+    public IReadOnlyCollection<User> Users => users;
     public void RegisterUser(User user)
     {
         users.Add(user);
