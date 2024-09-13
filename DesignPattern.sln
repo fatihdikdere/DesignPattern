@@ -71,15 +71,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod.Test", "test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "src\Behavioral\Memento\Memento.csproj", "{896A5B5A-3A53-4D4A-9892-92C8FF9CA26A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Test", "test\Behavioral\Memento.Test\Memento.Test.csproj", "{DCA587EF-6679-44DF-A7A9-0BD2313846B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento.Test", "test\Behavioral\Memento.Test\Memento.Test.csproj", "{DCA587EF-6679-44DF-A7A9-0BD2313846B8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "src\Behavioral\Visitor\Visitor.csproj", "{8EE41D16-A418-4FAB-8087-684EB93EB052}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor.Test", "test\Behavioral\Visitor.Test\Visitor.Test.csproj", "{778C57CB-AFD9-4BC3-8EA5-DCE201DAA98D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor.Test", "test\Behavioral\Visitor.Test\Visitor.Test.csproj", "{778C57CB-AFD9-4BC3-8EA5-DCE201DAA98D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "src\Behavioral\Mediator\Mediator.csproj", "{4AC10F08-93B9-4C43-A414-F6F529EA2754}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "src\Behavioral\Mediator\Mediator.csproj", "{4AC10F08-93B9-4C43-A414-F6F529EA2754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator.Test", "test\Behavioral\Mediator.Test\Mediator.Test.csproj", "{AB1F3707-81BC-4F22-AF19-266BE2E9ABAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator.Test", "test\Behavioral\Mediator.Test\Mediator.Test.csproj", "{AB1F3707-81BC-4F22-AF19-266BE2E9ABAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{09729883-69B1-48B6-92E6-03C832FBF046}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{C081EE45-0531-4282-966D-BC6D019D9C2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "src\Structural\Adapter\Adapter.csproj", "{F32B736B-1346-4E19-94C0-302F9E139EE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +213,10 @@ Global
 		{AB1F3707-81BC-4F22-AF19-266BE2E9ABAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB1F3707-81BC-4F22-AF19-266BE2E9ABAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB1F3707-81BC-4F22-AF19-266BE2E9ABAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32B736B-1346-4E19-94C0-302F9E139EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32B736B-1346-4E19-94C0-302F9E139EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32B736B-1346-4E19-94C0-302F9E139EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32B736B-1346-4E19-94C0-302F9E139EE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -246,6 +256,9 @@ Global
 		{778C57CB-AFD9-4BC3-8EA5-DCE201DAA98D} = {DBFA50AC-30D8-4549-A59F-6C3083F2A982}
 		{4AC10F08-93B9-4C43-A414-F6F529EA2754} = {DE8ADA6E-9960-4652-9DA4-1B1E2740A392}
 		{AB1F3707-81BC-4F22-AF19-266BE2E9ABAB} = {DBFA50AC-30D8-4549-A59F-6C3083F2A982}
+		{09729883-69B1-48B6-92E6-03C832FBF046} = {00D754D7-0526-4004-A2F2-99E88F5C2C1C}
+		{C081EE45-0531-4282-966D-BC6D019D9C2C} = {B549CEE6-376F-4C44-BB83-6A0D79E3953D}
+		{F32B736B-1346-4E19-94C0-302F9E139EE5} = {09729883-69B1-48B6-92E6-03C832FBF046}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {485951CC-0DE9-453C-A4B1-3BA5E6CC7338}
