@@ -103,11 +103,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite.Test", "test\Stru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "src\Structural\Decorator\Decorator.csproj", "{470A6DED-CBF2-4175-B9BA-C4108F4B143B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Test", "test\Structural\Decorator.Test\Decorator.Test.csproj", "{5B538C14-60CB-4953-A705-FABAF4CCEACF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator.Test", "test\Structural\Decorator.Test\Decorator.Test.csproj", "{5B538C14-60CB-4953-A705-FABAF4CCEACF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "src\Structural\Bridge\Bridge.csproj", "{349C2888-9492-45BB-8432-8FC6EB021B75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "src\Structural\Bridge\Bridge.csproj", "{349C2888-9492-45BB-8432-8FC6EB021B75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.Test", "test\Structural\Bridge.Test\Bridge.Test.csproj", "{56ABA75D-73EE-4969-87FD-6B5F7262D4E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge.Test", "test\Structural\Bridge.Test\Bridge.Test.csproj", "{56ABA75D-73EE-4969-87FD-6B5F7262D4E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "src\Structural\Flyweight\Flyweight.csproj", "{02E0FF05-5A1E-45A2-BB11-36B11FE50D31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -283,6 +285,10 @@ Global
 		{56ABA75D-73EE-4969-87FD-6B5F7262D4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56ABA75D-73EE-4969-87FD-6B5F7262D4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56ABA75D-73EE-4969-87FD-6B5F7262D4E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E0FF05-5A1E-45A2-BB11-36B11FE50D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E0FF05-5A1E-45A2-BB11-36B11FE50D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E0FF05-5A1E-45A2-BB11-36B11FE50D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E0FF05-5A1E-45A2-BB11-36B11FE50D31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -336,6 +342,7 @@ Global
 		{5B538C14-60CB-4953-A705-FABAF4CCEACF} = {C081EE45-0531-4282-966D-BC6D019D9C2C}
 		{349C2888-9492-45BB-8432-8FC6EB021B75} = {09729883-69B1-48B6-92E6-03C832FBF046}
 		{56ABA75D-73EE-4969-87FD-6B5F7262D4E9} = {C081EE45-0531-4282-966D-BC6D019D9C2C}
+		{02E0FF05-5A1E-45A2-BB11-36B11FE50D31} = {09729883-69B1-48B6-92E6-03C832FBF046}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {485951CC-0DE9-453C-A4B1-3BA5E6CC7338}
