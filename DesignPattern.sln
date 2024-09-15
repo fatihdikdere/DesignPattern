@@ -111,6 +111,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge.Test", "test\Structu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "src\Structural\Flyweight\Flyweight.csproj", "{02E0FF05-5A1E-45A2-BB11-36B11FE50D31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight.Test", "test\Structural\Flyweight.Test\Flyweight.Test.csproj", "{4C01BCBA-8141-47DE-86FC-C28BBE04600A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -289,6 +291,10 @@ Global
 		{02E0FF05-5A1E-45A2-BB11-36B11FE50D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02E0FF05-5A1E-45A2-BB11-36B11FE50D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02E0FF05-5A1E-45A2-BB11-36B11FE50D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C01BCBA-8141-47DE-86FC-C28BBE04600A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C01BCBA-8141-47DE-86FC-C28BBE04600A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C01BCBA-8141-47DE-86FC-C28BBE04600A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C01BCBA-8141-47DE-86FC-C28BBE04600A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -343,6 +349,7 @@ Global
 		{349C2888-9492-45BB-8432-8FC6EB021B75} = {09729883-69B1-48B6-92E6-03C832FBF046}
 		{56ABA75D-73EE-4969-87FD-6B5F7262D4E9} = {C081EE45-0531-4282-966D-BC6D019D9C2C}
 		{02E0FF05-5A1E-45A2-BB11-36B11FE50D31} = {09729883-69B1-48B6-92E6-03C832FBF046}
+		{4C01BCBA-8141-47DE-86FC-C28BBE04600A} = {C081EE45-0531-4282-966D-BC6D019D9C2C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {485951CC-0DE9-453C-A4B1-3BA5E6CC7338}
